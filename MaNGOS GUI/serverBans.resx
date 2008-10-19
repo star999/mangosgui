@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="comboBanType.Items" xml:space="preserve">
+    <value>account</value>
+  </data>
+  <data name="comboBanType.Items1" xml:space="preserve">
+    <value>character</value>
+  </data>
+  <data name="comboBanType.Items2" xml:space="preserve">
+    <value>ip</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBanType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
+  </data>
+  <data name="comboBanType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBanType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBanType.Name" xml:space="preserve">
+    <value>comboBanType</value>
+  </data>
+  <data name="&gt;&gt;comboBanType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBanType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBanType.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelBanType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBanType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="labelBanType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="labelBanType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelBanType.Text" xml:space="preserve">
+    <value>Ban/Unban By:</value>
+  </data>
+  <data name="&gt;&gt;labelBanType.Name" xml:space="preserve">
+    <value>labelBanType</value>
+  </data>
+  <data name="&gt;&gt;labelBanType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBanType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelBanType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="radioBan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="radioBan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="radioBan.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioBan.Text" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="&gt;&gt;radioBan.Name" xml:space="preserve">
+    <value>radioBan</value>
+  </data>
+  <data name="&gt;&gt;radioBan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioBan.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="radioUnban.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioUnban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 12</value>
+  </data>
+  <data name="radioUnban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="radioUnban.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radioUnban.Text" xml:space="preserve">
+    <value>Unban</value>
+  </data>
+  <data name="&gt;&gt;radioUnban.Name" xml:space="preserve">
+    <value>radioUnban</value>
+  </data>
+  <data name="&gt;&gt;radioUnban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioUnban.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioUnban.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelChosenType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelChosenType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 81</value>
+  </data>
+  <data name="labelChosenType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="labelChosenType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelChosenType.Name" xml:space="preserve">
+    <value>labelChosenType</value>
+  </data>
+  <data name="&gt;&gt;labelChosenType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChosenType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelChosenType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textChosenType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 97</value>
+  </data>
+  <data name="textChosenType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="textChosenType.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textChosenType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textChosenType.Name" xml:space="preserve">
+    <value>textChosenType</value>
+  </data>
+  <data name="&gt;&gt;textChosenType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textChosenType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textChosenType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 136</value>
+  </data>
+  <data name="textReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="textReason.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textReason.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textReason.Name" xml:space="preserve">
+    <value>textReason</value>
+  </data>
+  <data name="&gt;&gt;textReason.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textReason.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textReason.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelReason.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 120</value>
+  </data>
+  <data name="labelReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 13</value>
+  </data>
+  <data name="labelReason.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelReason.Text" xml:space="preserve">
+    <value>Reason for Ban: (Single word)</value>
+  </data>
+  <data name="labelReason.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelReason.Name" xml:space="preserve">
+    <value>labelReason</value>
+  </data>
+  <data name="&gt;&gt;labelReason.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelReason.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelReason.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 188</value>
+  </data>
+  <data name="textDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="textDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textDuration.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textDuration.Name" xml:space="preserve">
+    <value>textDuration</value>
+  </data>
+  <data name="&gt;&gt;textDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textDuration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 159</value>
+  </data>
+  <data name="labelDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 26</value>
+  </data>
+  <data name="labelDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelDuration.Text" xml:space="preserve">
+    <value>Duration in hours:
+(Perm. Leave Blank ex. 3h) </value>
+  </data>
+  <data name="labelDuration.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelDuration.Name" xml:space="preserve">
+    <value>labelDuration</value>
+  </data>
+  <data name="&gt;&gt;labelDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDuration.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 229</value>
+  </data>
+  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
+    <value>buttonUpdate</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>198, 264</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ban/Unban</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>serverBans</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

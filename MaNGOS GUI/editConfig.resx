@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textTimerInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 12</value>
+  </data>
+  <data name="textTimerInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textTimerInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textTimerInterval.Name" xml:space="preserve">
+    <value>textTimerInterval</value>
+  </data>
+  <data name="&gt;&gt;textTimerInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textTimerInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textTimerInterval.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="textMangosAppName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 90</value>
+  </data>
+  <data name="textMangosAppName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textMangosAppName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textMangosAppName.Name" xml:space="preserve">
+    <value>textMangosAppName</value>
+  </data>
+  <data name="&gt;&gt;textMangosAppName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textMangosAppName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textMangosAppName.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="textRealmAppName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 116</value>
+  </data>
+  <data name="textRealmAppName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textRealmAppName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textRealmAppName.Name" xml:space="preserve">
+    <value>textRealmAppName</value>
+  </data>
+  <data name="&gt;&gt;textRealmAppName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textRealmAppName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textRealmAppName.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="textMangosPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 142</value>
+  </data>
+  <data name="textMangosPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textMangosPath.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textMangosPath.Name" xml:space="preserve">
+    <value>textMangosPath</value>
+  </data>
+  <data name="&gt;&gt;textMangosPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textMangosPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textMangosPath.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="textRealmPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 168</value>
+  </data>
+  <data name="textRealmPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textRealmPath.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textRealmPath.Name" xml:space="preserve">
+    <value>textRealmPath</value>
+  </data>
+  <data name="&gt;&gt;textRealmPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textRealmPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textRealmPath.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="textDbHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 194</value>
+  </data>
+  <data name="textDbHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textDbHost.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textDbHost.Name" xml:space="preserve">
+    <value>textDbHost</value>
+  </data>
+  <data name="&gt;&gt;textDbHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDbHost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textDbHost.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="textDbPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 220</value>
+  </data>
+  <data name="textDbPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textDbPort.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textDbPort.Name" xml:space="preserve">
+    <value>textDbPort</value>
+  </data>
+  <data name="&gt;&gt;textDbPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDbPort.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textDbPort.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="textDbUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 246</value>
+  </data>
+  <data name="textDbUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textDbUser.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textDbUser.Name" xml:space="preserve">
+    <value>textDbUser</value>
+  </data>
+  <data name="&gt;&gt;textDbUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDbUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textDbUser.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="textDbPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 272</value>
+  </data>
+  <data name="textDbPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textDbPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textDbPassword.Name" xml:space="preserve">
+    <value>textDbPassword</value>
+  </data>
+  <data name="&gt;&gt;textDbPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDbPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textDbPassword.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="textMangosDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 298</value>
+  </data>
+  <data name="textMangosDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textMangosDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textMangosDbName.Name" xml:space="preserve">
+    <value>textMangosDbName</value>
+  </data>
+  <data name="&gt;&gt;textMangosDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textMangosDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textMangosDbName.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="textRealmDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 324</value>
+  </data>
+  <data name="textRealmDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textRealmDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textRealmDbName.Name" xml:space="preserve">
+    <value>textRealmDbName</value>
+  </data>
+  <data name="&gt;&gt;textRealmDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textRealmDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textRealmDbName.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="textCharactersDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 350</value>
+  </data>
+  <data name="textCharactersDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textCharactersDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textCharactersDbName.Name" xml:space="preserve">
+    <value>textCharactersDbName</value>
+  </data>
+  <data name="&gt;&gt;textCharactersDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textCharactersDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textCharactersDbName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="textMOTD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 376</value>
+  </data>
+  <data name="textMOTD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="textMOTD.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textMOTD.Name" xml:space="preserve">
+    <value>textMOTD</value>
+  </data>
+  <data name="&gt;&gt;textMOTD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textMOTD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textMOTD.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelMangosHosted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 41</value>
+  </data>
+  <data name="labelMangosHosted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelMangosHosted.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelMangosHosted.Text" xml:space="preserve">
+    <value>MaNGOS Hosted</value>
+  </data>
+  <data name="labelMangosHosted.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMangosHosted.Name" xml:space="preserve">
+    <value>labelMangosHosted</value>
+  </data>
+  <data name="&gt;&gt;labelMangosHosted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMangosHosted.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMangosHosted.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelRealmHosted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 67</value>
+  </data>
+  <data name="labelRealmHosted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelRealmHosted.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelRealmHosted.Text" xml:space="preserve">
+    <value>Realm Hosted</value>
+  </data>
+  <data name="labelRealmHosted.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelRealmHosted.Name" xml:space="preserve">
+    <value>labelRealmHosted</value>
+  </data>
+  <data name="&gt;&gt;labelRealmHosted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRealmHosted.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRealmHosted.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelMangosAppName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 93</value>
+  </data>
+  <data name="labelMangosAppName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelMangosAppName.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelMangosAppName.Text" xml:space="preserve">
+    <value>MaNGOS App Name</value>
+  </data>
+  <data name="labelMangosAppName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMangosAppName.Name" xml:space="preserve">
+    <value>labelMangosAppName</value>
+  </data>
+  <data name="&gt;&gt;labelMangosAppName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMangosAppName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMangosAppName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelRealmAppName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 119</value>
+  </data>
+  <data name="labelRealmAppName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelRealmAppName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelRealmAppName.Text" xml:space="preserve">
+    <value>Realm App Name</value>
+  </data>
+  <data name="labelRealmAppName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelRealmAppName.Name" xml:space="preserve">
+    <value>labelRealmAppName</value>
+  </data>
+  <data name="&gt;&gt;labelRealmAppName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRealmAppName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRealmAppName.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelMangosPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 145</value>
+  </data>
+  <data name="labelMangosPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelMangosPath.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelMangosPath.Text" xml:space="preserve">
+    <value>MaNGOS Path</value>
+  </data>
+  <data name="labelMangosPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMangosPath.Name" xml:space="preserve">
+    <value>labelMangosPath</value>
+  </data>
+  <data name="&gt;&gt;labelMangosPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMangosPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMangosPath.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelRealmPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 171</value>
+  </data>
+  <data name="labelRealmPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelRealmPath.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelRealmPath.Text" xml:space="preserve">
+    <value>Realm Path</value>
+  </data>
+  <data name="labelRealmPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelRealmPath.Name" xml:space="preserve">
+    <value>labelRealmPath</value>
+  </data>
+  <data name="&gt;&gt;labelRealmPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRealmPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRealmPath.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelDbHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 197</value>
+  </data>
+  <data name="labelDbHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelDbHost.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelDbHost.Text" xml:space="preserve">
+    <value>Database Host</value>
+  </data>
+  <data name="labelDbHost.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelDbHost.Name" xml:space="preserve">
+    <value>labelDbHost</value>
+  </data>
+  <data name="&gt;&gt;labelDbHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDbHost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDbHost.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelDbPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 223</value>
+  </data>
+  <data name="labelDbPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelDbPort.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelDbPort.Text" xml:space="preserve">
+    <value>Database Port</value>
+  </data>
+  <data name="labelDbPort.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelDbPort.Name" xml:space="preserve">
+    <value>labelDbPort</value>
+  </data>
+  <data name="&gt;&gt;labelDbPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDbPort.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDbPort.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelDbUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 249</value>
+  </data>
+  <data name="labelDbUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelDbUser.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelDbUser.Text" xml:space="preserve">
+    <value>Database User</value>
+  </data>
+  <data name="labelDbUser.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelDbUser.Name" xml:space="preserve">
+    <value>labelDbUser</value>
+  </data>
+  <data name="&gt;&gt;labelDbUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDbUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDbUser.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelDbPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 275</value>
+  </data>
+  <data name="labelDbPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelDbPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="labelDbPassword.Text" xml:space="preserve">
+    <value>Database Password</value>
+  </data>
+  <data name="labelDbPassword.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelDbPassword.Name" xml:space="preserve">
+    <value>labelDbPassword</value>
+  </data>
+  <data name="&gt;&gt;labelDbPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDbPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDbPassword.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelMangosDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 301</value>
+  </data>
+  <data name="labelMangosDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelMangosDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="labelMangosDbName.Text" xml:space="preserve">
+    <value>Mangos DB Name</value>
+  </data>
+  <data name="labelMangosDbName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMangosDbName.Name" xml:space="preserve">
+    <value>labelMangosDbName</value>
+  </data>
+  <data name="&gt;&gt;labelMangosDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMangosDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMangosDbName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelRealmDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 327</value>
+  </data>
+  <data name="labelRealmDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelRealmDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="labelRealmDbName.Text" xml:space="preserve">
+    <value>Realm DB Name</value>
+  </data>
+  <data name="labelRealmDbName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelRealmDbName.Name" xml:space="preserve">
+    <value>labelRealmDbName</value>
+  </data>
+  <data name="&gt;&gt;labelRealmDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRealmDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRealmDbName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelCharactersDbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 353</value>
+  </data>
+  <data name="labelCharactersDbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelCharactersDbName.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="labelCharactersDbName.Text" xml:space="preserve">
+    <value>Characters DB Name</value>
+  </data>
+  <data name="labelCharactersDbName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelCharactersDbName.Name" xml:space="preserve">
+    <value>labelCharactersDbName</value>
+  </data>
+  <data name="&gt;&gt;labelCharactersDbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCharactersDbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCharactersDbName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelMOTD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 379</value>
+  </data>
+  <data name="labelMOTD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelMOTD.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="labelMOTD.Text" xml:space="preserve">
+    <value>MOTD</value>
+  </data>
+  <data name="labelMOTD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMOTD.Name" xml:space="preserve">
+    <value>labelMOTD</value>
+  </data>
+  <data name="&gt;&gt;labelMOTD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMOTD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMOTD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTimerInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 15</value>
+  </data>
+  <data name="labelTimerInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelTimerInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="labelTimerInterval.Text" xml:space="preserve">
+    <value>Timer Interval</value>
+  </data>
+  <data name="labelTimerInterval.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelTimerInterval.Name" xml:space="preserve">
+    <value>labelTimerInterval</value>
+  </data>
+  <data name="&gt;&gt;labelTimerInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTimerInterval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTimerInterval.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 419</value>
+  </data>
+  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="buttonUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
+    <value>buttonUpdate</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMangosHosted.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMangosHosted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 41</value>
+  </data>
+  <data name="checkBoxMangosHosted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="checkBoxMangosHosted.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMangosHosted.Name" xml:space="preserve">
+    <value>checkBoxMangosHosted</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMangosHosted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMangosHosted.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMangosHosted.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxRealmHosted.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxRealmHosted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 66</value>
+  </data>
+  <data name="checkBoxRealmHosted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="checkBoxRealmHosted.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRealmHosted.Name" xml:space="preserve">
+    <value>checkBoxRealmHosted</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRealmHosted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRealmHosted.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRealmHosted.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 454</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Edit Config</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>editConfig</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
